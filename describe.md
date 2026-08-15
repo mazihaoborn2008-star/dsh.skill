@@ -6,7 +6,7 @@ description: When user ask for read a/some photo or recognize what exactly show 
 # 识图
 
 当用户要求识别图片内容时：
-1. 在当前文件夹运行'python3 scripts/describe.py <用户上传的图片路径> <用户描述的问题>'来识别图片内容，该脚本会调用MIMO模型来识别图片然后给你返回识图结果。
+1. 在当前文件夹运行'scripts/.venv/bin/python scripts/describe.py <用户上传的图片路径> <用户描述的问题>'来识别图片内容，该脚本会调用MIMO模型来识别图片然后给你返回识图结果。
 2. 你需要将得到的内容返回给用户。
 3. 该skill仅适用于你无法识别的图片，因为你不是多模态模型。
 4. 如果用户上传的是文件，比如word文档，则不使用该skill。
