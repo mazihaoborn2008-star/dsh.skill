@@ -1,0 +1,10 @@
+# 密钥 —— 绝不能提交！
+.env
+
+# Python 虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# macOS 垃圾
+.DS_Store
